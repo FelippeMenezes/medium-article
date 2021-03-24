@@ -1,75 +1,82 @@
 body {
-    color: #494949;
-    font-size: 18px;
-    line-height: 1.6;
-    font-weight: lighter;
-    font-family: 'Lora', serif;
-    margin: 0;
-  }
-  h1, h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-  }
-  h2 {
-    color: #A0A0A0;
-    font-weight: normal;
-  }
-  a {
-    text-decoration: none;
-    color: #4352A1;
-  }
-  
-  .banner {
-    background-image: url("https://source.unsplash.com/random/1000x500");
-    background-size: cover;
-    color: white;
-    padding: 120px 0;
-  }
-  .banner h1 {
-    font-size: 38px;
-  }
-  .banner p {
-    font-size: 30px;
-    font-style: italic;
-    font-weight: lighter;
-    opacity: 0.8;
-  }
+  color: grey;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+h1 {
+  color: rgba(125, 255, 179, 1);
+  text-shadow: 1px 1px 50px rgb(255, 125, 125);
+}
+
+h1, h2 {
+  font-family: 'Passion One', cursive;
+  font-weight: bold;
+}
+h2 {
+  color: rgba(255, 125, 125);
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1614416811503-a2baf8ceb217?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+.banner h1 {
+  font-size: 38px;
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(125, 255, 179);
+  text-shadow: 1px 1px 5px rgb(255, 125, 125);
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+.link-medium {
+  background-image: linear-gradient(to bottom, white white);
+  color: rgb(255, 125, 125);
+  text-shadow: 1px 1px rgb(125, 255, 179);
+  font-weight: lighter;
+  font-size: 28px;
+  font-style: italic;
+}
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 125, 125));}
+  border-radius: 4px;
+}
+
+@media(max-width: 900px) {
   .container {
     width: 700px;
-    margin: 50px auto;
   }
-  .link-medium {
-    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
-    color: #636363;
-    font-weight: lighter;
-    font-size: 25px;
-    font-style: italic;
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
   }
-  .link-medium:hover {
-    background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));}
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
   }
-  
-  @media(max-width: 900px) {
-    .container {
-      width: 700px;
-    }
+  .banner {
+    padding: 50px 0;
   }
-  @media(max-width: 750px) {
-    .container {
-      width: 450px;
-    }
+  .banner h1 {
+    font-size: 30px;
   }
-  @media(max-width: 500px) {
-    .container {
-      width: 350px;
-    }
-    .banner {
-      padding: 50px 0;
-    }
-    .banner h1 {
-      font-size: 30px;
-    }
-    .banner p {
-      font-size: 20px;
-    }
+  .banner p {
+    font-size: 20px;
   }
+}
