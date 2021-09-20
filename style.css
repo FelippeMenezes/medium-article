@@ -14,11 +14,11 @@ h1 {
 
 h1, h2 {
   font-family: 'Passion One', cursive;
-  font-weight: bold;
 }
 h2 {
-  color: rgba(255, 125, 125);
-  font-weight: normal;
+  color: rgb(255, 125, 125);
+  text-shadow: 1px 1px 5px black;
+  font-weight: lighter;
 }
 a {
   text-decoration: none;
@@ -37,7 +37,7 @@ a {
   font-size: 30px;
   font-style: italic;
   color: rgb(125, 255, 179);
-  text-shadow: 1px 1px 5px rgb(255, 125, 125);
+  text-shadow: 1px 1px 5px black;
 }
 .container {
   width: 700px;
@@ -45,14 +45,13 @@ a {
 }
 .link-medium {
   background-image: linear-gradient(to bottom, rgb(125, 255, 179), rgb(125, 255, 179));
-  color: rgb(255, 125, 125);
+  color: white;
   text-shadow: 1px 1px rgb(125, 255, 179);
   font-weight: lighter;
   font-size: 28px;
   font-style: italic;
 }
 .link-medium:hover {
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255));
   color: rgb(255, 125, 125);
   font-weight: lighter;
   font-size: 28px;
